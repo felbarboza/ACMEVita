@@ -1,5 +1,5 @@
-from ...department.models.department import Department
-from ... import db
+from src.department.models.department import Department
+from src import db
 
 class Colaborator(db.Model):
   __tablename__="colaborators"
